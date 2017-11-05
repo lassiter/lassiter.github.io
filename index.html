@@ -1,42 +1,66 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="assets/css/style.css">
     <title>Portfolio | Lassiter Gregg</title>
+    <!-- Material Design Lite -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-lime.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">   
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
   </head>
   <body>
-    <header>
+    <header class="mdl-layout__header mdl-layout__header--transparent">
       <h1>Lassiter Gregg</h1>
-      <p>Lassitron the Coder</p>
+      <p class="slogan">Lassitron the Coder</p>
       <p class="about">Lassiter went to school in Chicago then started a career in advertising as an integrated producer. He figured out he likes code and products more, so he enrolled with <a href="://www.bloc.io">Bloc's</a> Software Engineering Track.</p>
     </header>
-    <main class="">
-      <section id="portfolio" class="container">
-        <article class="project">
-          <img src="assets/img/Screen Shot 2017-10-29 at 10.22.26 PM.png" alt="string to array script">
-          <h2>String to Array</h2>
-          <p>An element of a search engine integration with YouTube.</p>
+    <main>
+      <section id="portfolio" class="mdl-layout__content mdl-grid">
+        <article class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+          <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
+          <div>
+            <img src="assets/img/Screen Shot 2017-10-29 at 10.56.01 PM.png" alt="portfolio">
+          </div>
+          <div class="mdl-cell mdl-cell--7-col">
+            <h2 class="mdl-card__title-text">My portfolio</h2>
+            <p class="mdl-card__supporting-text">It's a simple portfolio built from scratch. It shows basic examples of my work.</p>
+            </div>
+          </div>
         </article>
-        <article class="project">
-          <img src="assets/img/Screen Shot 2017-10-29 at 10.23.41 PM.png" alt="99 bottles script">
-          <h2>99 Bottles For String</h2>
-          <p>Simple for loop that sings the 99 bottles song.</p>
+        <article class="project mdl-cell mdl-card mdl-shadow--4dp">
+          <div>
+            <img src="assets/img/Screen Shot 2017-10-29 at 10.22.26 PM.png" alt="string to array script">
+          </div>
+          <div class="mdl-cell mdl-cell--7-col">
+            <h2 class="mdl-card__title-text">String to Array</h2>
+            <p class="mdl-card__supporting-text">An element of a search engine integration with YouTube.</p>
+          </div>
         </article>
-        <article class="project">
-          <img src="assets/img/Screen Shot 2017-10-29 at 10.24.17 PM.png" alt="cat name script">
-          <h2>Cats Array</h2>
-          <p>Simple array returning cats names based on an if function.</p>
+        <article class="project mdl-cell mdl-card mdl-shadow--4dp">
+          <div>
+            <img src="assets/img/Screen Shot 2017-10-29 at 10.23.41 PM.png" alt="99 bottles script">
+          </div>
+          <div class="mdl-cell mdl-cell--7-col">
+            <h2 class="mdl-card__title-text">99 Bottles For String</h2>
+            <p class="mdl-card__supporting-text">Simple for loop that sings the 99 bottles song.</p>
+          </div>
         </article>
-        <article class="project featured-project">
-          <img src="assets/img/Screen Shot 2017-10-29 at 10.56.01 PM.png" alt="portfolio">
-          <h2>My portfolio</h2>
-          <p>It's a simple portfolio built from scratch. It shows basic examples of my work.</p>
+        <article class="project mdl-cell mdl-card mdl-shadow--4dp">
+          <div>
+            <img src="assets/img/Screen Shot 2017-10-29 at 10.24.17 PM.png" alt="cat name script">
+          </div>
+          <div class="mdl-cell mdl-cell--7-col">
+            <h2 class="mdl-card__title-text">Cats Array</h2>
+            <p class="mdl-card__supporting-text">Simple array returning cats names based on an if function.</p>
+          </div>
         </article>
       </section>
     </main>
-    <footer>
+    <footer class="mdl-mini-footer">
       <nav>
-        <ul>
+        <ul class="mdl-mini-footer__link-list">
           <li><a href="https://www.linkedin.com/in/lassitergregg/">LinkedIn</a></li>
           <li><a href="https://github.com/lassiter">GitHub</a></li>
           <li><a href="https://twitter.com/lassitergregg">Twitter</a></li>
