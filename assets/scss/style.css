@@ -25,7 +25,7 @@ body {
   padding-bottom: 5rem; }
 
 header {
-  background: url(../img/nyc-background.jpg) center/cover;
+  background: url(../assets/img/nyc-background.jpg) center/cover;
   height: 60vh;
   justify-content: center;
   text-align: center; }
@@ -46,10 +46,10 @@ main {
 .project-description {
   padding-left: 0; }
 
-.project img {
+#portfolio > article > div > img {
   width: 100%;
   max-width: 100%;
-  max-height: 56.25%;
+  max-height: 240px;
   width: auto;
   height: auto; }
 
